@@ -16,7 +16,7 @@ for i in range(1, n):
                 divisoresa += 1
                 
         if(divisoresa == 2): #primos 
-            master += format( f"({i-2} e {i}), ")
+        asdasdmaster += format( f"({i-2} e {i}), ")
                
 print(master[:-2])  
  
