@@ -1,25 +1,12 @@
-n = 20
-master = ""
+# n = input("Digite o valor: ")
+n1 = 12
+n2 = 18
 
-for i in range(1, n):
-    divisores = 0
-    for a in range(1, n):
-        if(i % a == 0):
-            divisores += 1
-       
-    if(divisores == 2): #primos
-        divisoresa = 0
-        i += 2
- 
-        for a in range(1, n):
-            if(i % a == 0):
-                divisoresa += 1
-                
-        if(divisoresa == 2): #primos 
-        asdasdmaster += format( f"({i-2} e {i}), ")
-               
-print(master[:-2])  
- 
+for i in range(1, min(n1,n2)):
+    if(n1 % i == 0 and n2 % i == 0):
+        maxdivisor = i
+
+print(i)
 
 
-           
+#12 18

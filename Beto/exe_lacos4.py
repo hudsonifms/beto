@@ -19,7 +19,3 @@ for i in range(1, n):
             master += format( f"({i-2} e {i}), ")
                
 print(master[:-2])  
- 
-
-
-           
